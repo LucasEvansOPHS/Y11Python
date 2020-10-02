@@ -6,7 +6,7 @@ while x ==1:    #loops the program
   while check=='N' or check=='n':
     age=str(input("please enter your age >>>"))    #allows user to enter age
     gender=str(input("please enter your gender as M(male) F(female) or O(other) >>>"))    #allows user to enter gender
-    if gender=='M' or gender=='m':
+    if gender=='M' or gender=='m':    #allows the gender to be displayed in full from a character
       genDisplay="male"
     elif gender=='F' or gender=='f':
       genDisplay='female'
@@ -18,4 +18,12 @@ while x ==1:    #loops the program
     print("you are: "+age+" years old")
     print("your gender is: "+genDisplay)
     print("your email adress is : "+email)
+    print("your nickname/player name is : "+playName)
+    check=str(input("is this information correct? Y or N >>>"))
+  print("you are: "+age+" years old")
+  print("your gender is: "+genDisplay)
+  print("your email adress is : "+email)
+  print("your nickname/player name is : "+playName)
+
+ 
   
