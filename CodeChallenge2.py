@@ -1,3 +1,5 @@
+import sys
+
 x=1
 while x ==1:    #loops the program
   print("welcome new user!")    #prints welcome message
@@ -24,6 +26,11 @@ while x ==1:    #loops the program
   print("your gender is: "+genDisplay)
   print("your email adress is : "+email)
   print("your nickname/player name is : "+playName)
-
+  cont("continue? Y or N")
+  if cont=='Y' or cont=='y':
+    x=1
+  else:
+    x=0
+exit(sys)
  
   
