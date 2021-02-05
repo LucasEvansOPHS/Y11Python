@@ -1,0 +1,12 @@
+gb=10
+ans=0
+while gb!= 0:
+    print("there are",gb,"green bottles hanging on a wall,")
+    print(gb,"green bottles hanging on the wall.")
+    print("And if one green bottle should happen to fall")
+    ans=int(input("how many green bottles will be hanging on the wall?"))
+    if ans == (gb-1):
+        gb=ans
+        print("there'll be",gb,"green bottles hanging on the wall")
+    else:
+        print("no try again")
