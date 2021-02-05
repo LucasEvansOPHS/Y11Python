@@ -1,0 +1,9 @@
+count=0
+repeat=("y")
+while repeat=="y":
+    name=input("enter name of invitee")
+    print(name,"has been invited")
+    count=count+1
+    repeat=input("would you like to invite anyone else y/n")
+print(count,"people have been invited")
+    
