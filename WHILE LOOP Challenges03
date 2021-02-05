@@ -1,0 +1,7 @@
+x=int(input("enter a number"))
+cont=("y")
+while cont=="y":
+    y=int(input("enter another number"))
+    x=x+y
+    cont=input("would you like to add another number y/n")
+print("the total is",x)
