@@ -1,0 +1,14 @@
+compnum=50
+count=0
+repeat=("y")
+guessnum=int(input("enter a number between 1 and 100"))
+while guessnum != compnum and  repeat=='y':
+    if guessnum < compnum:
+        print("too low")
+    if guessnum > compnum:
+        print("too high")
+    count=count+1
+    repeat=input("guess again? y/n")
+    guessnum=int(input("enter new guess"))
+print("the number was",compnum)
+print("you took",count,"guesses")
