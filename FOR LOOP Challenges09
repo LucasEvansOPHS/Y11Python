@@ -1,0 +1,11 @@
+numGuests=int(input("how many guests would you like to invite"))
+if numGuests>= 10:
+    print("uh oh, you seem to be too popular")
+elif numGuests < 1:
+    print("you kind of need guests for a party")
+else:
+    numGuests=numGuests+1
+    for I in range(1,numGuests):
+        name=str(input("enter guest name"))
+        print(name,"has been invited")
+    
