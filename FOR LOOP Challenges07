@@ -1,0 +1,10 @@
+total=0
+num=0
+for I in range(0,5):
+    num=int(input("enter a number"))
+    add=str(input("do you want this number added y/n"))
+    if add=='y':
+        total=total+num
+    else:
+        num=0
+print("your total is",total)
