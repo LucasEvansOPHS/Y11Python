@@ -1,0 +1,11 @@
+ud=str(input("do you wish to count up or down u/d"))
+if ud=="u" or ud=="up":
+    x=(int(input("enter top number"))+1)
+    for I in range(1,x):
+        print(I)
+elif ud=="d" or ud=="down":
+    x=(int(input("enter a number below 20"))-1)
+    for I in range(20,x,-1):
+        print(I)
+else:
+    print("does not compute")
