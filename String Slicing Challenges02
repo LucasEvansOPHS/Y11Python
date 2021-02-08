@@ -1,0 +1,5 @@
+fname=input("enter your name")
+lname=input("enter your last name")
+wname=(fname+" "+lname)
+print(wname)
+print("there are",len(wname),"characters in your full name")
