@@ -1,0 +1,4 @@
+name=str(input("enter name"))
+x=len(name)
+for I in range(0,x):
+    print(name[I])
