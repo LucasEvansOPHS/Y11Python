@@ -1,0 +1,7 @@
+phonum=input("enter your phone number")
+if phonum[0]=='0':
+    print("UK phone number")
+elif phonum[0]!='0':
+    print("not UK phone number")
+else:
+    print("error")
