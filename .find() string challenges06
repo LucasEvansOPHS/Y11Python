@@ -1,0 +1,10 @@
+check=input("would you like to check a phone number y/n")
+if check=='y':
+    phonum=str(input("enter phone number"))
+    digit=len(phonum)
+    if phonum[0]=='0' and digit==11:
+        print("UK phone number")
+    else:
+        print("not a UK phone number")
+else:
+    print("suit yourself")
