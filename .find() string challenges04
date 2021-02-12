@@ -1,0 +1,4 @@
+num='123456789'
+loc3=num.find('3')
+loc8=num.find('8')
+print("the 3 is at",loc3,"and the 8 is at",loc8)
