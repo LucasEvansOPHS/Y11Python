@@ -1,0 +1,3 @@
+name="lucas"
+thing=name.find('a')
+print(thing)
