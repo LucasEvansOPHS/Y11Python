@@ -1,0 +1,9 @@
+repeat='y'
+num=1
+while repeat=='y':
+    name=input("enter your surname")
+    memnum=((name[0:3])+str(num))
+    print(memnum)
+    num=num+1
+    repeat=input("continue? y/n")
+    
