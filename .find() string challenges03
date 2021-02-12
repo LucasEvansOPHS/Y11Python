@@ -1,0 +1,3 @@
+email='TheQueen@BuckhinghamPalace.UK'
+location=email.find('@')
+print(location)
