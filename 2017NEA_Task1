@@ -1,0 +1,22 @@
+loop='y'     #loops the code
+correct="n"
+while loop == 'y':
+    print("league registration")
+    correct='n'
+    if correct=='n':
+        fname=input("enter first name")      #allows entry of details
+        lname=input("enter last name")
+        nname=input("enter nickname")
+        email=input("enter email address")
+        skillevel=input("enter skill level: C = casual, E = expert")
+        if skillevel =='C' or skillevel == 'c':     #converts the character entered into a string equivalent 
+            skillevel=("casual")
+        else:
+            skillevel=("expert")
+        print('name is',fname,lname)
+        print("nickname is",nname)
+        print("email is",email)
+        print("skill level is",skillevel)
+        correct=input("is this correct? y/n")     #allows user to check entered details and change them if necessary
+    else:
+        print("ok")
