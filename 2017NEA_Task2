@@ -1,0 +1,43 @@
+loop='y'   #allows the program to loop
+print("welcome to Fee Calculator™")
+while loop=='y':
+    email=input("please enter email address")    #user can enter email address
+    
+    check='n'
+    while check!='y':
+        country=input("Enter country: UK(United Kingdom), US(United States of America), AU(Australia)")
+        if country!='UK' and country!='US' and country!='AU':    #repeats until user enters information in the correct format
+            check='n'
+        else:
+            check='y'
+        
+    if country=='UK':   #allows for conversion rates to be calculated 
+        multi=1.0
+    elif country=='US':
+        multi=1.5
+    else:
+        multi=2.0
+        
+    slevel='n'
+    while slevel!='C' and slevel!='E':   #repeats until user enters information in correct format 
+        slevel=input('Enter skill level: E (Expert) or C (Casual')
+        
+    if slevel=='E':    #sets price based on skill level
+        price=35.0
+    else:
+        price=20.0
+    
+    cost=(price*multi)    #determines cost from skill level nd country
+    
+    if country=='US':
+        print("your entry fee is $",cost,"USD")
+    elif country=='AU':
+        print('your entry fee is',cost,'AUD')
+    else:
+        print('your entry fee is',cost,'GBP')
+    
+    loop=input('calculate another fee? y/n')
+        
+    
+        
+    
