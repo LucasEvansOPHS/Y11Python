@@ -1,0 +1,8 @@
+repeat='y'
+while repeat=='y':
+    select=input("enter A to search for a fixture , B for outstanding fixtures , C to display leader board , or Q to quit fixture manager").upper()
+    if select == 'Q':
+        beg=input("are you sure you want to quit?  y/n").lower()
+        if beg=='y':
+            repeat='n'
+    
