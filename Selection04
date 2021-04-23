@@ -1,3 +1,5 @@
+#Selection04
+
 col=str(input("enter your favourite colour"))
 if col=="red" or col=="Red" or col=="RED":
     print("yes,I like red too")
