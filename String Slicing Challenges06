@@ -1,5 +1,5 @@
 #String Slicing Challenges06
-
+#Lucas Evans
 fname=str(input("enter your first name "))
 if len(fname)<5:
     lname=str(input("enter your last name"))
