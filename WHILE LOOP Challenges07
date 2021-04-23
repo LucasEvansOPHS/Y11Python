@@ -1,3 +1,5 @@
+#WHILE LOOP Challenges07
+
 gb=10
 ans=0
 while gb!= 0:
