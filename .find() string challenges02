@@ -1,3 +1,4 @@
+#.find() string challenges02
 url='google.com'
 target='.'
 location=url.find(target)
