@@ -1,5 +1,5 @@
 #String Slicing Challenges04
-
+#Lucas Evans
 rhyme=str(input("enter the first line of a nursery rhyme"))
 print("this has",len(rhyme),"letters in it")
 x=int(input("enter a starting number"))
