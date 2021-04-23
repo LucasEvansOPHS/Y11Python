@@ -1,5 +1,5 @@
 #.find() string challenges02
-
+#Lucas Evans
 url='google.com'
 target='.'
 location=url.find(target)
