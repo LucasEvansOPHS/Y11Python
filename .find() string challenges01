@@ -1,3 +1,4 @@
+#.find() string challenges01
 name="lucas"
 thing=name.find('a')
 print(thing)
