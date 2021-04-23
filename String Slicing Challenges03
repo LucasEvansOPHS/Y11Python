@@ -1,3 +1,5 @@
+#String Slicing Challenges03
+
 fname=input("enter your name as lower case")
 lname=input("enter your last name as Lower case")
 wname=(fname+" "+lname)
