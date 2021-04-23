@@ -1,4 +1,5 @@
 #FOR LOOP Challenges06
+
 num=(int(input("enter a number below 50"))-1)
 for I in range(50,num,-1):
     print(I)
