@@ -1,5 +1,5 @@
 #.find() string challenges05
-
+#Lucas Evans
 phonum=input("enter your phone number")
 if phonum[0]=='0':
     print("UK phone number")
