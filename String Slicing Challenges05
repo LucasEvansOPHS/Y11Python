@@ -1,2 +1,4 @@
+#String Slicing Challenges05
+
 word=str(input("enter a word")).upper()
 print(word)
