@@ -1,5 +1,5 @@
 #String Slicing Challenges02
-
+#Lucas Evans
 fname=input("enter your name")
 lname=input("enter your last name")
 wname=(fname+" "+lname)
