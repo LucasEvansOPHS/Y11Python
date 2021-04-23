@@ -1,1 +1,3 @@
+#String Slicing Challenges01
+
 print(len(input("enter your name")))
