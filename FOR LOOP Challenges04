@@ -1,5 +1,5 @@
 #FOR LOOP Challenges04
-
+#Lucas Evans
 name=str(input("enter name"))
 x=len(name)
 for I in range(0,x):
