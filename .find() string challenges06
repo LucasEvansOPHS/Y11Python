@@ -1,5 +1,5 @@
 #.find() string challenges06
-
+#Lucas Evans
 check=input("would you like to check a phone number y/n")
 if check=='y':
     phonum=str(input("enter phone number"))
