@@ -1,5 +1,5 @@
 #Selection05
-
+#Lucas Evans
 weath=str(input("is it raining")).lower()
 if weath=="yes":
     weath2=str(input("is it windy")).lower()
