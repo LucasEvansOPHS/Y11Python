@@ -1,5 +1,5 @@
 #.find() string challenges04
-
+#Lucas Evans
 num='123456789'
 loc3=num.find('3')
 loc8=num.find('8')
