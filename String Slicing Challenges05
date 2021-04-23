@@ -1,4 +1,4 @@
 #String Slicing Challenges05
-
+#Lucas Evans
 word=str(input("enter a word")).upper()
 print(word)
