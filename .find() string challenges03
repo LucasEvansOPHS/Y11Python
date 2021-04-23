@@ -1,3 +1,5 @@
+#.find() string challenges03
+
 email='TheQueen@BuckhinghamPalace.UK'
 location=email.find('@')
 print(location)
